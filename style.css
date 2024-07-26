@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
@@ -242,11 +243,11 @@ body {
 
     .sub-500 {
 
-        width: 193px;
+        width: 183px;
         height: 110px;
         position: relative;
-        top: 127px;
-        right: -370px;
+        top: 117px;
+        right: -340px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         backdrop-filter: blur(20px);

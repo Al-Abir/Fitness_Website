@@ -62,6 +62,36 @@
     
     }
     /*-------change habit section start----*/
+     .change-habit{
+       width:944px;
+      
+       margin: 0 auto;
+       margin-top: 60px;
+       align-items: center;
+       background: burlywood;
+       
+     }
+     .habit-pic1{
+            width:50%;
+            background: rebeccapurple;
+            h3 {
+                margin-top: 15px;
+            }
+        
+            p {
+                text-align:start;
+            }
+     }
+     .habit-pic2{
+        width:50%;
+    }
+    .habit-pic3{
+        width:50%;
+    }
+    .habit-pic4{
+        width:50%;
+   }
+    
   }
 
  
