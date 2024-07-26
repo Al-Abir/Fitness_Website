@@ -1,1 +1,3 @@
 # Fitness_Website
+
+Responsive design ensures an optimal user experience across various devices. At a max-width of 1260px, the design targets desktop monitors with a multi-column layout, high-resolution images, and easy-to-navigate menus. For max-width 744px, suited for tablets, the layout adjusts to a single or two-column structure, maintaining clarity and legibility. At a max-width of 340px, ideal for smartphones, the design simplifies to a single-column layout, optimizing text and images for quick loading and ease of use. This approach guarantees a consistent and appealing experience on all screen sizes.
