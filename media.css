@@ -1,0 +1,69 @@
+@media (max-width: 744px) {
+     
+    .nav-section{
+        width: 744px;
+        height: 46px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        
+    }
+    /*--------hero-section start--------*/
+    .hero-section {
+
+        width: 744px;
+        height: 1200px;
+        margin: 0 auto;
+        margin-top: 32px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+       
+
+        .hero-section-1st-div {
+            width: 100%;
+            height: 600px;
+            
+             .hero-lorem{
+                width: 80%;
+             }
+            }
+
+
+            .hero-section-2nd-div {
+                width: 100%;
+                height: 600px;
+             
+              
+            
+                .hero-img {
+                    /* Images 2 */
+                        position: absolute;
+                        top: 761px;
+                        left: 232px;
+                    
+                }
+              .sub-500 {
+                
+                top: 53px;
+                right: -414px;
+                }
+            
+                .sub-300 {
+                   
+                    left: 151px;
+                    top: 274px;
+                    
+                }
+            
+                }
+    
+    }
+    /*-------change habit section start----*/
+  }
+
+ 
+
+  
