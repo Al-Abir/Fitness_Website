@@ -1,7 +1,8 @@
-@media (max-width: 744px) {
+@media (min-width:576px) and (max-width: 992px) {
      
     .nav-section{
-        width: 744px;
+        width: 992px;
+       background: blue;
         height: 46px;
         display: flex;
         justify-content: space-between;
@@ -63,8 +64,7 @@
     }
     /*-------change habit section start----*/
      .change-habit{
-       width:944px;
-      
+       width:100%;
        margin: 0 auto;
        margin-top: 60px;
        align-items: center;
