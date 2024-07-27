@@ -1,99 +1,228 @@
-@media (min-width:576px) and (max-width: 992px) {
-     
+@media (max-width:992px){
     .nav-section{
-        width: 992px;
-       background: blue;
-        height: 46px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 20px;
-        
+      margin: 40px;
     }
-    /*--------hero-section start--------*/
+    /*--------- hero section start--------------------*/
     .hero-section {
+      margin-top: 50px;
+      display: flex; 
+      
+      flex-direction: column;
+      align-items: center;
+      gap:50px;
 
-        width: 744px;
-        height: 1200px;
-        margin: 0 auto;
-        margin-top: 32px;
-        margin-left: 20px;
-        display: flex;
-        flex-direction: column;
-        gap:40px;
-       
-
-        .hero-section-1st-div {
-            width: 100%;
-            height: 600px;
-            
-             .hero-lorem{
-                width: 80%;
-             }
-            }
-
-
-            .hero-section-2nd-div {
-                width: 100%;
-                height: 600px;
-             
-              
-            
-                .hero-img {
-                    /* Images 2 */
-                        position: absolute;
-                        top: 761px;
-                        left: 232px;
-                    
-                }
-              .sub-500 {
-                
-                top: 53px;
-                right: -414px;
-                }
-            
-                .sub-300 {
-                   
-                    left: 151px;
-                    top: 274px;
-                    
-                }
-            
-                }
-    
-    }
-    /*-------change habit section start----*/
-     .change-habit{
-       width:100%;
-       margin: 0 auto;
-       margin-top: 60px;
-       align-items: center;
-       background: burlywood;
-       
-     }
-     .habit-pic1{
-            width:50%;
-            background: rebeccapurple;
-            h3 {
-                margin-top: 15px;
-            }
-        
-            p {
-                text-align:start;
-            }
-     }
-     .habit-pic2{
-        width:50%;
-    }
-    .habit-pic3{
-        width:50%;
-    }
-    .habit-pic4{
-        width:50%;
-   }
-    
+     .hero-section-1st-div{
+       max-width: 100vw;
+       padding: 50px;
+     } 
+  }
+  /*--------- habit section start--------------------*/
+  .habit-pic{
+      gap:20px;
+      justify-content: space-evenly;
+      
+      .card{
+          padding:20px;
+          width:calc(50% - 20px);
+       }
+        .text{
+          padding:20px;
+        }
+        .text-p{
+          padding: 20px;
+        }
+  }
+  /*-------run section start----------*/   
+  .mile-easily{
+    margin: 40px;
+  }
+  /*-------training section start----------*/   
+  .training{
+    margin:40px;
   }
 
- 
+   /*-------BMI Heading----------*/   
+   .bmi-heading {
+    margin: 40px;
+    padding-left: 10px; 
+}
+/*-------BMI Calculation Part start----------*/ 
+.bmi-container { 
+display: flex;
+flex-direction: column;
+ gap:60px;
+ margin: 40px;
 
+}
+.bmi-chat {
+
+max-width: 45vw;
+text-align: start;
+
+
+}
+.bmi-calculation {
+min-width: 100%;
+}
+#fname{
+height: 8vh;
+}
+/*-------meet our team start------*/
+.meet-our-team{
+    margin: 40px;
+}
+
+/*-------footer section start----------*/ 
+.footer-part-1st-section {
+margin: 40px;
+display: flex;
+flex-direction: column;
+
+}
+.service-list{
+gap:150px;
+}
+
+}
+
+/*---------------End-----------------*/ 
+
+@media (max-width: 576px){
+
+ 
+  /* ------Nav section start --------*/
+  .nav-section{
+      margin: 10px; 
+      background-color: blue;
+    }
+
+    .nav-ul li{
+      display:none;
+    }
+    .nav-list .nav-toggle{
+      display: block;
+      margin-right: 20px;
+     }
+/* ---------hero section start----- */
+    .hero-section {
+      margin: 10px;
+      margin-top: 30px;
+      display: flex; 
+      
+      flex-direction: column;
+      align-items: center;
+      gap:50px;
+
+     .hero-section-1st-div{
+       max-width: 100vw;
+       padding: 50px;
+
+       h1{
+          font-size: 3rem;
+       }
+
+       miama-font {
+          font-family: miama;
+          font-weight: 400;
+          font-size: 6rem;
+      }
+     } 
+  }
   
+/*----------habit section start------*/
+  .habit-pic{
+      gap:10px;
+      justify-content: center;
+      align-items: center;
+  }
+  .card{
+     
+     min-width:100%;
+  
+    
+      
+   }
+    .text{
+      padding:20px;
+    }
+    .text-p{
+      padding: 20px;
+    }
+
+    /*----------Run section start------*/
+    .mile-easily{
+      margin:15px;
+      display: flex;
+      flex-direction: column;
+    }
+
+     /*----------Training section start------*/
+     .first-row-pic1{
+      min-width: 50%;
+     }
+     .first-row-pic2{
+      min-width: 50%;
+     }
+     .first-row-pic3{
+      display: none;
+     }
+    .Second-row-pic1{
+      min-width: 50%;
+    }
+    .Second-row-pic2{
+      min-width: 50%;
+    }
+    .Second-row-pic3{
+      display: none;
+    }
+
+     /*----------Meat our team------*/
+     .meet-trainer-1st-row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+     }
+     .meet-1st-pic{
+        width: 300px;
+     }
+     .meet-2nd-pic{
+      width: 300px;
+   }
+   .meet-3rd-pic{
+    width: 300px;
+ }
+
+ .meet-trainer-2nd-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+ }
+     .meet-2nd-row-1st-pic{
+      display: none;
+     }
+     .meet-2nd-row-2nd-pic{
+      display: none;
+     }
+    
+     .meet-2nd-row-3rd-pic{
+      width: 300px;
+     }
+
+/*----footer section---------*/
+
+.service-list{
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+}
+
+}
+  
+
+
+
+
